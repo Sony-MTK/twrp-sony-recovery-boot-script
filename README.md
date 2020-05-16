@@ -1,4 +1,4 @@
-# Sony recovery boot script
+# Sony recovery boot script Edit Note: This still Needs modifying for use on Sony/Mediatek Devices
 
 This script will chain load an Android recovery from the FOTAKernel partition.
 
