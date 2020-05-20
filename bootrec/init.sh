@@ -14,9 +14,9 @@ set +x
 ############
 
 REAL_INIT="/init.real"
-
-DEV_FOTA_NODE="/dev/block/mmcblk0p32 b 259 0"
-DEV_FOTA="/dev/block/mmcblk0p32"
+#Change fotakernel part # to P5 for L1 "pine"#
+DEV_FOTA_NODE="/dev/block/mmcblk0p5 b 179 5"
+DEV_FOTA="/dev/block/mmcblk0p5"
 
 LOG_FILE="/bootrec/boot-log.txt"
 RECOVERY_CPIO="/bootrec/recovery.cpio"
